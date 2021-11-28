@@ -1,0 +1,11 @@
+.nav {
+    &-img {
+        width: 148px;
+        height: 36px;
+    }
+    &-main {
+        &--list {
+            padding: 0 50px;
+        }
+    }
+}

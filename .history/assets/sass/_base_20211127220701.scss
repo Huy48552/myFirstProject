@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $primary-font;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: $primary-font;
+    outline: none;
+    border: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}

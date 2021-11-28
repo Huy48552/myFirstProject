@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    &-img {
+        width: 148px;
+        height: 36px;
+    }
+    &-list {
+        width: 451px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-login {
+        width: 233px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

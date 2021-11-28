@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    &-img {
+        width: 148px;
+        height: 36px;
+    }
+    &-list {
+        width: 451px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-item {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #4f5665;
+    }
+    &-login {
+        width: 233px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+        &--sign-in {
+            color: #0b132a;
+        }
+        &--sign-up {
+            width: 150px;
+            height: 45px;
+            border: 1px solid $primary-color;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: primary;
+        }
+    }
+}

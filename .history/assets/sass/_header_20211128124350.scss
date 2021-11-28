@@ -1,0 +1,12 @@
+.nav {
+    &-img {
+        width: 148px;
+        height: 36px;
+    }
+    &-main {
+        display: flex;
+        &--list {
+            padding: 0 50px;
+        }
+    }
+}

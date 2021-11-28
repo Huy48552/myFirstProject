@@ -1,0 +1,31 @@
+.introduce-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px 0;
+    position: relative;
+    &-content {
+        width: 530px;
+        margin-right: 40px;
+    }
+    &-heading {
+        margin-bottom: 20px;
+    }
+    &-desc {
+        margin-bottom: 50px;
+    }
+    &-btn {
+        width: 250px;
+        height: 60px;
+        background-color: $red-light;
+        color: $white;
+        border-radius: 10px;
+    }
+    &-img {
+        // position: absolute;
+        // top: 0;
+        // right: 83px;
+        width: 611.24px;
+        height: 382.44px;
+    }
+}

@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-img {
+        width: 148px;
+        height: 36px;
+    }
+    &-list {
+        min-width: 451px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

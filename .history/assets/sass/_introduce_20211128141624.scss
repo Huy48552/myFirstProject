@@ -1,0 +1,16 @@
+.introduce-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px 0;
+    &-content {
+        margin-right: 40px;
+    }
+    &-heading {
+        margin-bottom: 20px;
+    }
+    &-img {
+        width: 611.24px;
+        height: 382.44px;
+    }
+}
