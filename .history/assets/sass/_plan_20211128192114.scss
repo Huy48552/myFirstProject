@@ -1,0 +1,20 @@
+.plan {
+    // background-color: $white-darker;
+    background-color: aqua;
+
+    // &-heading,
+    // &-desc {
+    //     text-align: center;
+    // }
+    // &-heading {
+    //     padding-top: 80px;
+    //     padding-bottom: 20px;
+    // }
+    // &-desc {
+    // }
+    &-heading {
+        text-align: center;
+        padding-top: 80px;
+        margin-bottom: 20px;
+    }
+}

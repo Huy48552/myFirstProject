@@ -1,0 +1,25 @@
+.subcribe {
+    height: 233px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 100px;
+
+    &-text {
+        width: 410px;
+        height: 116px;
+    }
+
+    &-heading {
+        width: 371.61px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+    &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

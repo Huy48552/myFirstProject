@@ -1,0 +1,12 @@
+.subcribe {
+    height: 233px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+
+    &-text {
+        width: 410px;
+        height: 116px;
+    }
+}

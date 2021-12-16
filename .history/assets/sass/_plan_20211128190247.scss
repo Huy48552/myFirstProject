@@ -1,0 +1,10 @@
+.plan {
+    background-color: $white-darker;
+    &-heading,
+    &-desc {
+        text-align: center;
+    }
+    &-heading {
+        margin-top: 80px;
+    }
+}

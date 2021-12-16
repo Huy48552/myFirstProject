@@ -1,0 +1,51 @@
+.customer {
+    width: 1300px;
+    height: 590px;
+    margin: 40px 70px 75px;
+    background-color: $white-dark;
+    &-heading {
+        width: 447.81px;
+        height: 100px;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    &-desc {
+        width: 555px;
+        height: 60px;
+        text-align: center;
+        margin: 0 auto 90px;
+    }
+
+    &-list {
+        width: 400px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .star-icon {
+            width: 16px;
+            height: 16px;
+            color: #fea250;
+        }
+    }
+
+    .user-rating {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .num-star {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,22 @@
+.plan {
+    // background-color: $white-darker;
+    background-color: aqua;
+
+    &-heading,
+    &-desc {
+        text-align: center;
+    }
+    &-heading {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    &-desc {
+        margin-bottom: 60px;
+    }
+
+    &-price {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

@@ -1,0 +1,63 @@
+.plan {
+    margin-bottom: 100px;
+    // background-color: $white-darker;
+    background-color: aqua;
+
+    &-heading,
+    &-desc {
+        text-align: center;
+    }
+    &-heading {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    &-desc {
+        margin-bottom: 60px;
+    }
+    &-price-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &-price {
+        width: 330px;
+        height: 760px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $white;
+        border: 2px solid #dddddd;
+        border-radius: 10px;
+
+        .img {
+            max-width: 100%;
+            margin: 80px 93px 30px;
+        }
+
+        .price-heading {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: $gray-dark;
+            margin-bottom: 30px;
+        }
+
+        // .price-list {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        // }
+        .price-item {
+            display: flex;
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30;
+
+            &-icon {
+                margin-right: 20px;
+            }
+        }
+    }
+}

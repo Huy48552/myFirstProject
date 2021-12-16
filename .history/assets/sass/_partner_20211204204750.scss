@@ -1,0 +1,10 @@
+.partner {
+    height: 208px;
+    background-color: $white-darker;
+    margin-bottom: 40px;
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

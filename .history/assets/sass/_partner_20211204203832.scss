@@ -1,0 +1,9 @@
+.partner {
+    height: 208px;
+    background-color: $white-dark;
+    &-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

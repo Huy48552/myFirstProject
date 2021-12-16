@@ -1,0 +1,97 @@
+.customer {
+    width: 1300px;
+    height: 590px;
+    margin: 40px 0 75px 140px;
+    background-color: $white-dark;
+    &-heading {
+        width: 447.81px;
+        height: 100px;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    &-desc {
+        width: 555px;
+        height: 60px;
+        text-align: center;
+        margin: 0 auto 90px;
+    }
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0 46px;
+        overflow-x: hidden;
+        scroll-snap-type: x proximity;
+        scroll-snap-align: start;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+
+    &-item {
+        width: 400px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: $white;
+        border: 2px solid #dddddd;
+        padding: 40px;
+        border-radius: 10px;
+        // margin-right: 40px;
+
+        .star {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .star-icon {
+            width: 16px;
+            height: 16px;
+            color: #fea250;
+        }
+
+        .user-comment {
+            margin-top: 20px;
+        }
+    }
+
+    .user-rating {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .num-star {
+        margin-right: 10px;
+    }
+
+    &-pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .pagination-current--slide {
+            display: flex;
+            align-items: center;
+        }
+
+        .slide {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #dde0e4;
+            margin-right: 10px;
+        }
+        .active {
+            width: 45px;
+            height: 15px;
+            background-color: $red-light;
+            border-radius: 50px;
+        }
+    }
+}

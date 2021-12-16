@@ -1,0 +1,99 @@
+.plan {
+    background-color: $white-dark;
+
+    &-heading,
+    &-desc {
+        text-align: center;
+    }
+    &-desc {
+        margin-bottom: 60px;
+    }
+    &-price-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    &-price {
+        width: 330px;
+        height: 760px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $white;
+        border: 2px solid #dddddd;
+        border-radius: 10px;
+
+        .img {
+            max-width: 100%;
+            margin: 80px 93px 0;
+        }
+
+        .price-heading {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: $gray-dark;
+            margin-bottom: 30px;
+        }
+
+        .price-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .price-item {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+
+            &-icon {
+                margin-right: 20px;
+            }
+        }
+        &:hover {
+            border: 2px solid $red-light;
+        }
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        color: $gray-dark;
+        margin-bottom: 20px;
+        span {
+            color: $gray;
+        }
+    }
+
+    &-price-btn {
+        width: 177.88px;
+        height: 45px;
+        border: 2px solid $red-light;
+        border-radius: 50px;
+        background-color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: $red-light;
+        &:hover {
+            background-color: $red-light;
+            color: $white;
+            box-shadow: 0 30px 18px -13px rgb(245 56 56 / 35%);
+        }
+    }
+
+    &-img {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    &-img {
+        width: 148px;
+        height: 36px;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+    &-list {
+        width: 451px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-item {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: $gray;
+        &:hover {
+            color: $gray-light;
+        }
+    }
+    &-login {
+        width: 233px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+        &--sign-in {
+            color: $gray-dark;
+            &:hover {
+                color: $gray-light;
+            }
+        }
+        &--sign-up {
+            width: 150px;
+            height: 45px;
+            border: 1px solid $red-light;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $red-light;
+            &:hover {
+                background-color: $red-light;
+                color: $white;
+            }
+        }
+    }
+    &-icon-menu {
+        font-size: 50px;
+        display: none;
+    }
+
+    &-mb {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background-color: aqua;
+        z-index: 999;
+        padding: 60px 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &-mb-item {
+        padding: 20px 10px;
+        border-bottom: 1px solid #000;
+
+        &:hover {
+            background-color: #fff;
+            color: red;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1200px) {
+        padding: 20px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        padding: 0 30px;
+        .nav-img {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-img {
+            display: block;
+        }
+        .nav-list,
+        .nav-login {
+            display: none;
+        }
+        .nav-icon-menu {
+            display: block;
+        }
+    }
+}
